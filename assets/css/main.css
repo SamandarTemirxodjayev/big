@@ -1,0 +1,58 @@
+/* assets/css/main.css */
+
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff !important;
+}
+
+body, text, html  {
+  font-family: 'Libre Franklin', sans-serif;
+  overflow-x: hidden;
+  background: #fff;
+  color: #000000;
+}
+
+input, textarea, select, option{
+  background: #fff;
+  color: #000000;
+}
+
+h1, p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h2, h3, h4, h5, h6, span {
+  font-family: 'Inter', sans-serif;
+}
+
+.cnt {
+  @apply container mx-auto px-10;
+}
+
+a.active::before {
+  width: 100% !important;
+}
+
+@media (max-width: 1024px) {
+  html{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 840px) {
+  html{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt build",
+    "dev": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt dev --host",
+    "generate": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt generate",
+    "preview": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt preview",
+    "postinstall": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.0.0-rc.11",
+    "@pinia-plugin-persistedstate/nuxt": "1.2.0",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.8.2",
+    "postcss-nesting": "^12.0.2",
+    "sass": "^1.69.5",
+    "tailwindcss": "^3.4.0",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.11.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@preline/dropdown": "^2.0.1",
+    "axios": "^1.6.2",
+    "pinia": "^2.1.7",
+    "postcss-cli": "^11.0.0",
+    "sweetalert2": "^11.10.1"
+  }
+}
