@@ -3,11 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt build",
-    "dev": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt dev --host",
-    "generate": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt generate",
-    "preview": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt preview",
-    "postinstall": "cross-env NODE_OPTIONS='--max-old-space-size=16384' nuxt prepare"
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
