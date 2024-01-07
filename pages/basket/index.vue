@@ -19,7 +19,7 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[25px] w-[85%] sm:py-6 py-4"
     >
-      <div class="text-1xl text-[#323750] font-semibold leading-[56px] tracking-[3.34px] " v-if="products.length === 0"><span>Mahsulot mavjud emas</span></div>
+      <div class="text-1xl text-[#323750] font-semibold leading-[56px] tracking-[3.34px] " v-if="products.length === 0"><span>{{ $t('BasketDivSpan') }}</span></div>
       <div
         v-for="item in products"
         :key="item"

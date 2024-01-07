@@ -4,17 +4,17 @@
       <div
         class="container mx-auto bg-white rounded-t-3xl py-8 lg:max-w-[1200px]"
       >
-        <div class="flex items-center justify-between lg:mx-16 mx-2 pb-[2%]">
+        <div class="flex items-center justify-between lg:mx-16 mx-2 pb-[2%] ">
           <NuxtLink to="/basket">
             <img src="/icons/backicon.svg" alt="" />
           </NuxtLink>
         </div>
-        <div class="flex justify-center lg:mx-24">
-          <form class="flex flex-col max-w-[90%]" @submit="handleSubmit">
+        <div class="flex items-center justify-center  sm:pt-0 pt-20">
+          <form class="flex flex-col sm:max-w-[90%] max-w-[125%]" @submit="handleSubmit">
             <input
               type="text"
               :placeholder="$t('BasketInput1')"
-              class="text-sm border-2 rounded-lg p-2.5 w-[558px]  mb-[10%]"
+              class="text-sm border-2 rounded-lg p-2.5 sm:w-[558px] w-[125%]  mb-[10%]"
               :class="{ 'border-[#323750]': name, 'border-[#d3d7d9]': !name }"
               v-model="name"
             />
@@ -22,7 +22,7 @@
               type="text"
               inputmode="numeric"
               :placeholder="$t('BasketInput2')"
-              class="text-sm border-2 p-2.5  rounded-lg w-[558px] mb-[10%]"
+              class="text-sm border-2 p-2.5  rounded-lg sm:w-[558px] w-[125%] mb-[10%]"
               :class="phoneClasses"
               v-model="phone"
               @input="handleNonNumericInput"
@@ -30,7 +30,7 @@
 
             <button
               type="submit"
-              class=" font-'Libre Franklin' flex items-center justify-center gap-2 bg-[#323750] text-center text-[#f4f7f8] rounded-lg px-2.5 py-3 text-lg"
+              class=" font-'Libre Franklin' flex items-center justify-center gap-2 bg-[#323750] text-center text-[#f4f7f8] rounded-lg sm:w-[558px] w-[125%] px-2.5  py-3 text-lg"
             >
               {{ $t("BasketButton2") }}
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

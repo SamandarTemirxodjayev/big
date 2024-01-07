@@ -90,7 +90,7 @@ onMounted(() => {
 .loader {
   width: fit-content;
   font-weight: bold;
-  font-family: monospace;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 30px;
   background: linear-gradient(90deg, #323750 50%, #0000 0) right/200% 100%;
   animation: l21 2s infinite linear;
@@ -100,7 +100,7 @@ onMounted(() => {
   color: #323750;
   padding: 0 5px;
   background: inherit;
-  background-image: linear-gradient(90deg, #fff 50%, #000 0);
+  background-image: linear-gradient(90deg, #fff 50%, #fff 0);
   -webkit-background-clip: text;
   background-clip: text;
 }

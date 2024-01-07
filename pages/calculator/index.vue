@@ -68,8 +68,8 @@
               @click="handleChangeItem('угалок')"
               
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink 
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -89,15 +89,15 @@
                   >{{ $t("SpanUgalok") }}</span
                 >
               </div>
-            </a>
+            </NuxtLink>
             </div>
 
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('труба')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -115,15 +115,15 @@
                   >{{ $t("SpanTruba") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
 
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('лист')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -143,7 +143,7 @@
                   >{{ $t("SpanList") }}</span
                 >
               </div>
-              </a>
+            </NuxtLink>
             </NuxtLink>
 
             <!-- <<!>> -->
@@ -152,8 +152,8 @@
               @click="handleChangeItem('арматура')"
               class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -181,14 +181,14 @@
                   >{{ $t("SpanArmatura") }}</span
                 >
               </div>
-              </a>
+            </NuxtLink>
             </div>
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('квадрат профил')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -205,15 +205,15 @@
                   >{{ $t("SpanKvadratprofil") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
 
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('квадрат прут')"  
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -231,15 +231,15 @@
                   >{{ $t("SpanKvadratprut") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
 
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('прут')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           ></div>
@@ -255,15 +255,15 @@
                   >{{ $t("SpanPrut") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
 
             <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('металл паласа')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           >
@@ -280,7 +280,7 @@
                   >{{ $t("SpanMetallpalasa") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
 
 
@@ -288,8 +288,8 @@
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
             @click="handleChangeItem('металл планка')"
             >
-            <a 
-            href="#dvuxtavr">
+            <NuxtLink
+            to="#dvuxtavr">
             <div
             class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all  "
           >
@@ -307,7 +307,7 @@
                   >{{ $t("SpanMetallplanka") }}</span
                 >
               </div>
-              </a>
+              </NuxtLink>
             </NuxtLink>
           </div>
         </section>

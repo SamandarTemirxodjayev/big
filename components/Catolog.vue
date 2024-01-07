@@ -264,13 +264,13 @@
         </div>
     </section>
     <div class="flex items-center justify-center">
-      <a
-        class="px-12 py-4 bg-secondary justify-center items-center gap-5 inline-flex text-white text-xs font-semibold"
-        href="/catalog"
+      <NuxtLink
+        class="px-12 py-4 bg-secondary hover:bg-[#091E3A] justify-center items-center gap-5 inline-flex text-white text-xs font-semibold"
+        to="/catalog"
       >
         <span>{{ $t('SpanKataloggaotish') }}</span
         ><Icon name="fluent:arrow-enter-20-regular" size="20" />
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
