@@ -2,9 +2,9 @@
   <div>
     <Head>
       <Title>BIG METALL</Title>
-      <Meta name="description" content="Двухтавр, Швеллер, Угалок, Лист"/>
+      <Meta name="description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!"/>
       <Meta property="og:title" content="BIG METALL"/>
-      <Meta property="og:description" content="Двухтавр, Швеллер, Угалок, Лист"/>
+      <Meta property="og:description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!"/>
       <Meta property="og:url" content="https://bigmetall.uz/"/>
       <Meta property="og:type" content="website"/>
       <Meta name="keywords" content="Big Metall"/>
