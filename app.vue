@@ -26,7 +26,6 @@
       <Meta name="rating" content="Family-Friendly"/>
       <Meta name="yandex-verification" content="2d700806c890aa33" />
       <Meta name="google-site-verification" content="PPevBp6aV4OJc1ZDkrMfYMlkI5LhICEpGPItHF3gWgA" />
-      <Link rel="stylesheet" href="./assets/css/main.css"/>
       <Link rel="canonical" href="https://bigmetall.uz/"/>
       <Link rel="icon" type="image/x-icon" href="./public/favicon.ico"/>
     </Head>
