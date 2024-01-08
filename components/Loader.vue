@@ -16,7 +16,7 @@
  .loader {
   width: 60px;
   aspect-ratio: 4;
-  --c:#000 90%,#0000;
+  --c:#091E3A 100%,#0000;
   background: 
     radial-gradient(circle closest-side at left  60px top 50%,var(--c)),
     radial-gradient(circle closest-side                      ,var(--c)),

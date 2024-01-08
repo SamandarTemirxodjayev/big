@@ -1,7 +1,7 @@
 <template>
   <div class="sm:my-0">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2992.7482842900927!2d69.24006627606035!3d41.40127257129805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDI0JzA0LjYiTiA2OcKwMTQnMzMuNSJF!5e0!3m2!1sru!2s!4v1703241960001!5m2!1sru!2s"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.3646812946893!2d69.24107013339253!3d41.40168344718928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0040f1499b%3A0x19f29a4651354937!2sBig%20Metall!5e0!3m2!1sru!2s!4v1704690554028!5m2!1sru!2s" 
       width="100%"
       height="160px"
       class="mobileMap border-0 hidden"
@@ -136,7 +136,7 @@
             class="relative sm:max-w-[490px] h-[260px] rounded-xl overflow-hidden"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2992.7482842900927!2d69.24006627606035!3d41.40127257129805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDI0JzA0LjYiTiA2OcKwMTQnMzMuNSJF!5e0!3m2!1sru!2s!4v1703241960001!5m2!1sru!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.3646812946893!2d69.24107013339253!3d41.40168344718928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0040f1499b%3A0x19f29a4651354937!2sBig%20Metall!5e0!3m2!1sru!2s!4v1704690554028!5m2!1sru!2s" 
               width="492px"
               height="260px"
               class="border-0"
@@ -194,11 +194,11 @@
 
 <script setup>
 const mapSrc = ref(
-  "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2992.7482842900927!2d69.24006627606035!3d41.40127257129805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDI0JzA0LjYiTiA2OcKwMTQnMzMuNSJF!5e0!3m2!1sru!2s!4v1703241960001!5m2!1sru!2s"
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.3646812946893!2d69.24107013339253!3d41.40168344718928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0040f1499b%3A0x19f29a4651354937!2sBig%20Metall!5e0!3m2!1sru!2s!4v1704690554028!5m2!1sru!2s" 
 );
 const openUrl = () => {
   window.open(
-    "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2992.7482842900927!2d69.24006627606035!3d41.40127257129805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDI0JzA0LjYiTiA2OcKwMTQnMzMuNSJF!5e0!3m2!1sru!2s!4v1703241960001!5m2!1sru!2s"
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.3646812946893!2d69.24107013339253!3d41.40168344718928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d0040f1499b%3A0x19f29a4651354937!2sBig%20Metall!5e0!3m2!1sru!2s!4v1704690554028!5m2!1sru!2s" 
   );
 };
 
