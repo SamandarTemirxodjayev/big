@@ -27,5 +27,4 @@ body {
 </style>
 <script setup>
 const colorMode = useColorMode();
-
 </script>
