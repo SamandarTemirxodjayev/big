@@ -29,6 +29,7 @@
       <Meta name="referrer" content="origin"/>
       <Link rel="canonical" href="https://bigmetall.uz/"/>
       <Link rel="icon" type="image/x-icon" href="./public/favicon.ico"/>
+          <link rel="icon" href="https://public/favicon.ico" type="image/x-icon">
     </Head>
     <div>
       <NuxtLayout>
