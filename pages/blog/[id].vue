@@ -57,8 +57,8 @@ onMounted(() => {
   animation: l21 2s infinite linear;
 }
 .loader::before {
-  content: "Loading...";
-  color: #323750;
+  content: "Загрузка...";
+  color: #fff;
   padding: 0 5px;
   background: inherit;
   background-image: linear-gradient(90deg, #fff 50%, #fff 0);

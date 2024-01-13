@@ -43,10 +43,10 @@
         class="flex sm:flex-col md:flex-row flex-row items-center h-[auto] md:h-[550px] gap-6 mt-6 md:mt-0"
       >
         <div class="flex self-end w-full md:w-80">
-          <img src="/HeroImg2.png" class="" alt="" />
+          <img src="/HeroImg1.png"  alt="metall1" />
         </div>
         <div class="flex self-start w-full md:w-80">
-          <img src="/HeroImg1.png" class="z-10" alt="" />
+          <img src="/HeroImg2.png" class="z-10" alt="metall2" />
         </div>
       </div>
       <div

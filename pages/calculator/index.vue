@@ -876,12 +876,13 @@
             <select
               v-model="type1"
               @change="handleChange"
-              class="rounded-[6px] h-[35px] border border-[#222222] outline-none pl-1 pr-[30px] py-1.5"
-            >
+              class="rounded-[6px] h-[35px] border border-[#222222] outline-none pl-1 pr-[30px] py-1.5 relative"
+              style="white-space: normal;" 
+              >
               <option v-for="(item, i) in двухтавр" :key="item">
                 {{ i }}
               </option>
-            </select>
+              </select>
           </div>
           <div class="flex flex-col w-full md:w-[217px] lg:w-[217px]">
             <label
@@ -4004,6 +4005,7 @@ const handleChange = () => {
   type3.value = "";
 };
 </script>
+
 <style>
 html {
   scroll-behavior: smooth;

@@ -22,7 +22,7 @@
 
 <style scoped lang="scss">
 .delivery {
-  background: url("/Pixebay.png") no-repeat;
+  background: url("/background.png") no-repeat;
   background-size: cover;
   @apply h-[401px] flex items-center z-[1] relative;
 

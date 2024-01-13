@@ -28,8 +28,8 @@
       <Meta name="google-site-verification" content="PPevBp6aV4OJc1ZDkrMfYMlkI5LhICEpGPItHF3gWgA" />
       <Meta name="referrer" content="origin"/>
       <Link rel="canonical" href="https://bigmetall.uz/"/>
-      <Link rel="icon" type="image/x-icon" href="./public/favicon.ico"/>
-          <link rel="icon" href="https://public/favicon.ico" type="image/x-icon">
+      <Link rel="icon" type="image/x-icon" href="/public/favicon.ico"/>
+          <Link rel="icon" href="https://public/favicon.ico" type="image/x-icon"/>
     </Head>
     <div>
       <NuxtLayout>
@@ -38,6 +38,8 @@
     </div>
   </div>
 </template>
+
+
 <style>
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
 * {
@@ -56,5 +58,3 @@ body {
   color: #433422;
 }
 </style>
-<script setup>
-</script>
