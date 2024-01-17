@@ -185,37 +185,37 @@ let totalPrice = computed(() => {
 });
 
 const imgHandle = (item) => {
-  if (item == "dvuxtavr") {
+  if (item == "Двухтавр") {
     return "https://admin.bigmetall.uz/uploads/dvuxtavr.jpg";
   }
-  if (item == "list") {
+  if (item == "Лист") {
     return "https://admin.bigmetall.uz/uploads/list.jpg";
   }
-  if (item == "ugalok") {
+  if (item == "Угалок") {
     return "https://admin.bigmetall.uz/uploads/ugalok.jpg";
   }
-  if (item == "truba") {
+  if (item == "Труба") {
     return "https://admin.bigmetall.uz/uploads/truba.jpg";
   }
-  if (item == "shveller") {
+  if (item == "Швеллир") {
     return "https://admin.bigmetall.uz/uploads/shvelir.webp";
   }
-  if (item == "prut") {
+  if (item == "Прут") {
     return "https://admin.bigmetall.uz/uploads/prut.png";
   }
-  if (item == "planka") {
+  if (item == "Планка") {
     return "https://admin.bigmetall.uz/uploads/planka.jpg";
   }
-  if (item == "palasa") {
+  if (item == "Паласа") {
     return "https://admin.bigmetall.uz/uploads/palasa.jpg";
   }
-  if (item == "kvadrat-profil") {
+  if (item == "Квадрат профил") {
     return "https://admin.bigmetall.uz/uploads/kv-profil.webp";
   }
-  if (item == "armatura") {
+  if (item == "Арматура") {
     return "https://admin.bigmetall.uz/uploads/armatura.png";
   }
-  if (item == "kvadrat-prut") {
+  if (item == "Квадрат прут") {
     return "https://avatars.mds.yandex.net/i?id=475045043ce3ac1b73743bf877e582f5_l-8425915-images-thumbs&ref=rim&n=13&w=700&h=700";
   }
 };

@@ -68,9 +68,9 @@ onMounted(async () => {
 });
 
 const filteredProducts = computed(() => {
-  return selectedCategory.value !== "Ҳамма Маҳсулотлар"
+  return selectedCategory.value !== ""
     ? products.value.filter(
-        (product) => product.name === selectedCategory.value
+        (product) => product.name.toLowerCase() === selectedCategory.value.toLowerCase()
       )
     : products.value.map((product) => ({ ...product, primary: false }));
 });

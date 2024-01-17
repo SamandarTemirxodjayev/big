@@ -12,7 +12,7 @@
         >
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            href="/catalog/dvuxtavr"
+            href="/catalog/двухтавр"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -60,7 +60,7 @@
 
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/shveller"
+            to="/catalog/швеллир"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -106,7 +106,7 @@
 
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/ugalok"
+            to="/catalog/угалок"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -164,7 +164,7 @@
 
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/truba"
+            to="/catalog/труба"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -223,7 +223,7 @@
 
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/list"
+            to="/catalog/лист"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -273,7 +273,7 @@
 
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/armatura"
+            to="/catalog/арматура"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -363,7 +363,7 @@
           </NuxtLink>
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/kvadrat-profil"
+            to="/catalog/Квадрат профил"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -411,7 +411,7 @@
           </NuxtLink>
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/kvadrat-prut"
+            to="/catalog/Квадрат прут"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -458,7 +458,7 @@
           </NuxtLink>
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/prut"
+            to="/catalog/прут"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -517,7 +517,7 @@
           </NuxtLink>
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/palasa"
+            to="/catalog/паласа"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"
@@ -537,7 +537,7 @@
           </NuxtLink>
           <NuxtLink
             class="group text-sm w-full sm:h-[182px] h-[162px] relative bg-[#fff] ring-1 hover:ring-transparent ring-fiveColor rounded-r-lg transition-all duration-500"
-            to="/catalog/planka"
+            to="/catalog/планка"
           >
             <div
               class="absolute w-[215px] h-[180px] sm:block hidden flex-col justify-center rounded-sm border-l-2 border-[#1950DD] px-3 cursor-pointer hover:bg-dark hover:text-white transition-all"

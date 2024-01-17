@@ -7,7 +7,7 @@
         <tr>
           <th class="noMobile p-3">{{ $t("ProductTopth1") }}</th>
           <th class="p-3">{{ $t("ProductTopth2") }}</th>
-          <th class="noMobile p-3">{{ $t("ProductTopth4") }}</th>
+          <th class="p-3">{{ $t("ProductTopth4") }}</th>
           <th class="p-3">{{ $t("ProductTopth5") }}</th>
         </tr>
       </thead>
@@ -20,7 +20,7 @@
         >
           <td class="p-3">{{ product.name }}</td>
           <td class="noMobile p-3">{{ product.category }}</td>
-          <td class="p-3 noMobile">{{ product.qalinligi }}</td>
+          <td class="p-3 ">{{ product.qalinligi }}</td>
           <td class="p-3">{{ formatPrice(product.price) }}</td>
         </tr>
       </tbody>
@@ -31,13 +31,25 @@
 <script setup>
 import axios from "axios";
 const products = ref([]);
+const productsArray = ref([]);
+
 onMounted(async () => {
   try {
     const res = await axios.get(`https://admin.bigmetall.uz/api/products`);
     products.value = res.data;
+    productsArray.value = products.value; 
+    const randomItems = getRandomItemsFromArray(productsArray.value);
   } catch (error) {
   }
 });
+
+function getRandomItemsFromArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array.slice(0, 5);
+}
 
 const formatPrice = (price) => {
   return new Intl.NumberFormat("en-US", {
@@ -46,6 +58,7 @@ const formatPrice = (price) => {
   }).format(price);
 };
 </script>
+
 
 <style scoped>
 @media (max-width: 780px) {
