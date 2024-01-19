@@ -976,12 +976,16 @@
             >
             <select
               v-model="type1"
+              size="1"
               @change="handleChange"
               class="rounded-[6px] h-[35px] border border-[#222222] outline-none pl-1 pr-[30px] py-1.5"
             >
+
               <option v-for="(item, i) in труба" :key="item">
-                {{ i }}
+              {{ i }}
               </option>
+              
+
             </select>
           </div>
           <div class="flex flex-col w-full md:w-[217px] lg:w-[217px]">
@@ -1654,7 +1658,8 @@ const двухтавр = ref({
       metersPerTon: 3.4,
     },
   },
-  B: {
+  
+  Б: {
     "10/1": {
       weightPerMeter: 8.7,
       metersPerTon: 114.9,
@@ -1768,7 +1773,7 @@ const двухтавр = ref({
       metersPerTon: 6.9,
     },
   },
-  Sh: {
+  Ш: {
     "20/1": {
       weightPerMeter: 30.6,
       metersPerTon: 32.7,
@@ -1919,6 +1924,8 @@ const двухтавр = ref({
     },
   },
 });
+
+
 const арматура = ref({
   10: { weightPerMeter: 0.61, metersPerTon: 1620 },
   12: { weightPerMeter: 0.88, metersPerTon: 1126 },
@@ -2334,6 +2341,8 @@ const угалок = ref({
   },
 });
 
+
+
 const труба = ref({
   21.3: {
     1.5: {
@@ -2475,7 +2484,7 @@ const труба = ref({
       metersPerTon: 298.5,
     },
   },
-  38: {
+  38.0: {
     1.7: {
       weightPerMeter: 1.52,
       metersPerTon: 657.9,
@@ -2485,7 +2494,7 @@ const труба = ref({
       metersPerTon: 335.6,
     },
   },
-  48: {
+  48.0: {
     1.5: {
       weightPerMeter: 1.72,
       metersPerTon: 581.4,
@@ -2527,7 +2536,7 @@ const труба = ref({
       metersPerTon: 260.4,
     },
   },
-  57: {
+  57.0: {
     1.5: {
       weightPerMeter: 2.05,
       metersPerTon: 487.8,
@@ -2561,7 +2570,7 @@ const труба = ref({
       metersPerTon: 216.5,
     },
   },
-  76: {
+  76.0: {
     1.7: {
       weightPerMeter: 3.11,
       metersPerTon: 321.54,
@@ -2603,7 +2612,7 @@ const труба = ref({
       metersPerTon: 96.5,
     },
   },
-  89: {
+  89.0: {
     1.7: {
       weightPerMeter: 3.66,
       metersPerTon: 273.2,
@@ -2645,7 +2654,7 @@ const труба = ref({
       metersPerTon: 81.4,
     },
   },
-  102: {
+  102.0: {
     2: {
       weightPerMeter: 4.93,
       metersPerTon: 202.8,
@@ -2821,7 +2830,7 @@ const труба = ref({
       metersPerTon: 21.5,
     },
   },
-  "273.0": {
+  273.0: {
     "4.0": {
       weightPerMeter: "26.54",
       metersPerTon: "37.68",
@@ -2843,7 +2852,7 @@ const труба = ref({
       metersPerTon: "19.13",
     },
   },
-  "325.0": {
+  325.0: {
     "5.0": {
       weightPerMeter: "39.46",
       metersPerTon: "25.34",
@@ -2877,7 +2886,7 @@ const труба = ref({
       metersPerTon: "10.80",
     },
   },
-  "377.0": {
+  377.0: {
     "6.0": {
       weightPerMeter: "54.90",
       metersPerTon: "18.22",
@@ -3077,7 +3086,10 @@ const труба = ref({
       metersPerTon: 1.556,
     },
   },
-});
+})
+
+
+
 
 const прут = ref({
   10: {

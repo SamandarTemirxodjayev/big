@@ -54,7 +54,7 @@ const products = ref([]);
 const route = useRoute();
 const pending = ref(true);
 
-onMounted(async () => {
+onMounted(async () => {16
   try {
     pending.value = true;
     const response = await fetch(`https://admin.bigmetall.uz/api/products`);
