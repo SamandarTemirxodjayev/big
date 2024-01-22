@@ -8,7 +8,8 @@
       <Meta property="og:url" content="https://bigmetall.uz/"/>
       <Meta property="og:type" content="website"/>
       <Meta name="keywords" content="Big Metall"/>
-      <Meta name="keywords" content="Metall"/>
+      <Meta name="keywords" content="Big Metall, Metall, Big, Temir, temir, Двухтавр, Швеллер, Угалок, Труба, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка"/>
+      <Meta name="keywords" content="Metall,"/>
       <Meta name="keywords" content="Big"/>
       <Meta name="keywords" content="Temir"/>
       <Meta name="keywords" content="temir"/>
