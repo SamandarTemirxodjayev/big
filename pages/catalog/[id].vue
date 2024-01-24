@@ -9,7 +9,7 @@
           <tr>
             <th class="noMobile p-3">{{ $t("ProductTopth1") }}</th>
             <th class="p-3">{{ $t("ProductTopth2") }}</th>
-            <th class="noMobile p-3">{{ $t("ProductTopth4") }}</th>
+            <th class="p-3">{{ $t("ProductTopth4") }}</th>
             <th class="sm:p-3 p-2">{{ $t("ProductTopth5") }}</th>
             <th class="sm:p-3 p-2">Карзинка</th>
           </tr>
@@ -22,7 +22,7 @@
           >
             <td class="p-3">{{ product.name }}</td>
             <td class="noMobile p-3">{{ product.category }}</td>
-            <td class="p-3 noMobile">{{ product.qalinligi }}</td>
+            <td class="p-3 ">{{ product.qalinligi }}</td>
             <td class="p-3">{{ formatPrice(product.price) }}</td>
 
             <td @click="handle" class="p-1">
