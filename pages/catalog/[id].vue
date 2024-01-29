@@ -18,7 +18,7 @@
           <tr
             v-for="product in filteredProducts"
             :key="product.id"
-            class="text-center font-medium hover:bg-secondary hover:text-white cursor-pointer border-b-4 border-t-4 bg-neutral-100"
+            class="text-center font-medium sm:hover:bg-secondary sm:hover:text-white cursor-pointer border-b-4 border-t-4 bg-neutral-100"
           >
             <td class="p-3">{{ product.name }}</td>
             <td class="noMobile p-3">{{ product.category }}</td>

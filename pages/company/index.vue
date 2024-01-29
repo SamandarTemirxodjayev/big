@@ -54,7 +54,7 @@
                 {{ $t("H2AboutWe") }}
               </h2>
               <p
-                class="w-full lg:w-[100%] text-black sm:text-base text-[14px] text-balance font-medium"
+                class="w-full lg:w-[100%] text-black sm:text-[18px] text-[14px] text-balance font-medium"
               >
                 {{ $t("PAboutWe") }}<br /><br />
               </p>

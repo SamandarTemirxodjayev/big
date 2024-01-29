@@ -1,7 +1,6 @@
 <template>
   <div v-if="!loading">
     <Hero />
-    <ProductTop/>
     <Catolog/>
     <WeAbout/>
     <Pixabay/>

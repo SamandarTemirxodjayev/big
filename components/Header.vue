@@ -79,7 +79,17 @@
         </div>
       </div>
 
-      <div class="flex items-center gap-5 sm:hidden">
+      <div class="flex items-center gap-10 sm:hidden">
+        <NuxtLink to="/basket">
+        <div class="relative">
+          <div
+            class="absolute left-4 bottom-2 bg-slate-300 w-6 h-6 rounded-full flex items-center justify-center"
+          >
+            {{ quantity }}
+          </div>
+            <Icon name="ph:shopping-cart-light" size="20" color="#fff" />
+        </div>
+      </NuxtLink>
         <button
           @click="() => (isOpen = !isOpen)"
           class="flex items-center px-3 py-2 rounded text-gray-200 hover:text-white"
@@ -96,8 +106,8 @@
         "
         class="w-full block flex-grow lg:hidden lg:items-center lg:w-auto"
       >
-        <div></div>
         <div class="flex justify-center items-center">
+          
           <div
             class="sm:hidden block absolute top-8 right-10 cursor-pointer"
             @click="() => (isOpen = false)"
