@@ -33,11 +33,11 @@
             <Icon name="iconamoon:clock-light" class="mr-2 text-sm" />
             {{ new Date(blog.createdAt).toLocaleString() }}
           </span>
-          <h3
+          <h1
             class="font-semibold text-lg overflow-hidden whitespace-nowrap overflow-ellipsis"
           >
             {{ blog.title }}
-          </h3>
+          </h1>
           <h5
             class="text-sm my-2 overflow-hidden whitespace-normal max-h-[3.4em] line-clamp-2"
             :class="{ truncate: !blog.isExpanded }"

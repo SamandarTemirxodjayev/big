@@ -1,36 +1,32 @@
 <template>
   <div>
     <Head>
-      <Title>BIG METALL</Title>
-      <Meta name="description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!"/>
-      <Meta property="og:title" content="BIG METALL"/>
-      <Meta property="og:description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!"/>
-      <Meta property="og:url" content="https://bigmetall.uz/"/>
-      <Meta property="og:type" content="website"/>
-      <Meta name="keywords" content="Big Metall"/>
-      <Meta name="keywords" content="Big Metall, Metall, Big, Temir, temir, Двухтавр, Швеллер, Угалок, Труба, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка"/>
-      <Meta name="keywords" content="Metall,"/>
-      <Meta name="keywords" content="Big"/>
-      <Meta name="keywords" content="Temir"/>
-      <Meta name="keywords" content="temir"/>
-      <Meta name="keywords" content="Двухтавр"/>
-      <Meta name="keywords" content="Швеллер"/>
-      <Meta name="keywords" content="Угалок"/>
-      <Meta name="keywords" content="Труба"/>
-      <Meta name="keywords" content="Лист"/>
-      <Meta name="keywords" content="Арматура"/>
-      <Meta name="keywords" content="Квадрат профил"/>
-      <Meta name="keywords" content="Квадрат прут"/>
-      <Meta name="keywords" content="Прут"/>
-      <Meta name="keywords" content="Металл паласа"/>
-      <Meta name="keywords" content="Металл планка"/>
-      <Meta name="rating" content="Family-Friendly"/>
-      <Meta name="yandex-verification" content="2d700806c890aa33" />
-      <Meta name="google-site-verification" content="PPevBp6aV4OJc1ZDkrMfYMlkI5LhICEpGPItHF3gWgA" />
-      <Meta name="referrer" content="origin"/>
-      <Link rel="canonical" href="https://bigmetall.uz/"/>
-      <Link rel="icon" type="image/x-icon" href="/public/favicon.ico"/>
-      <Link rel="icon" href="https://bigmetall.uz/public/favicon.ico" type="image/x-icon" />
+    <Title>BIG METALL</Title>
+    <Meta name="description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!" />
+    <Meta name="author" content="Erkinov Shakhzod" />
+    <Meta property="og:title" content="BIG METALL" />
+    <Meta property="og:description" content="Двухтавр, Швеллер, Угалок, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка и другие изделия из железа!" />
+    <Meta property="og:url" content="https://bigmetall.uz/" />
+    <Meta property="og:type" content="website" />
+    <Meta name="keywords" content="Big Metall, Metall, Big, Temir, temir, Двухтавр, Швеллер, Угалок, Труба, Лист, Арматура, Квадрат профил, Квадрат прут, Прут, Металл паласа, Металл планка" />
+    <Meta name="rating" content="Family-Friendly" />
+    <Meta name="yandex-verification" content="2d700806c890aa33" />
+    <Meta name="google-site-verification" content="PPevBp6aV4OJc1ZDkrMfYMlkI5LhICEpGPItHF3gWgA" />
+    <Meta name="referrer" content="origin" />
+    <Link rel="canonical" href="https://bigmetall.uz/" />
+    <Link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
+    <Link rel="icon" href="https://bigmetall.uz/public/favicon.ico" type="image/x-icon" />
+
+    <Meta property="og:type" content="business.business" />
+    <Meta property="og:title" content="Big Metall" />
+    <Meta property="og:url" content="https://bigmetall.uz/" />
+    <Meta property="og:image" content="https://bigmetall.uz/public/favicon.ico" />
+    <Meta property="og:description" content="Ҳар қандай шароитда металларни биз билан осон топасиз!" />
+    <Meta property="business:contact_data:street_address" content="Бывший завод Ширибом, Промзона, Хасанбой" />
+    <Meta property="business:contact_data:locality" content="Tashkent" />
+    <Meta property="business:contact_data:region" content="Tashkent" />
+    <Meta property="business:contact_data:postal_code" content="111112" />
+    <Meta property="business:contact_data:country_name" content="Uzbekistan" />
     </Head>
     <div>
       <NuxtLayout>

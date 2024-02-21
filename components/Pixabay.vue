@@ -1,11 +1,11 @@
 <template>
   <section class="delivery">
     <div class="cnt">
-      <h2
+      <h1
         class="max-w-full mx-auto sm:text-5xl sm:w-[1100px] w-full flex items-center justify-center text-center text-white font-semibold text-3xl"
       >
         {{ $t("PixabayH2") }}
-      </h2>
+      </h1>
 
       <div class="coin">
         <div

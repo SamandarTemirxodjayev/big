@@ -13,9 +13,9 @@
                style="background: linear-gradient(49deg, #091E3A -5.91%, #164078 38.23%, #7092EA 97.71%, #FFF 128.95%)"
              >
                <h6 class="text-2xl font-semibold">{{ $t('PartnerH6') }}</h6>
-               <h3 class="text-7xl font-semibold my-6 leading-tight">
+               <h1 class="text-7xl font-semibold my-6 leading-tight">
                 {{ $t('PartnerH3') }}
-               </h3>
+               </h1>
                <p class="font-medium">
                 {{ $t('PartnerP') }}
                </p>
@@ -64,7 +64,7 @@
        @apply text-xl; 
      }
  
-     h3 {
+     h1 {
        @apply text-5xl; 
      }
    }

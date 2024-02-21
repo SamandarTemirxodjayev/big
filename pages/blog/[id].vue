@@ -12,7 +12,7 @@
             alt=""
           />
           <div class="p-4 flex flex-col gap-10">
-            <h2 class="text-xl font-bold">{{ blog.title }}</h2>
+            <h1 class="text-xl font-bold">{{ blog.title }}</h1>
             <span>{{ blog.description }}</span>
           </div>
         </div>

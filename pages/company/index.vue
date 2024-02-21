@@ -1,14 +1,11 @@
 <template>
   <div v-if="!loading">
     <main class="about">
-      <header
-        class="header sm:pt-0 pt-20 flex items-center sm:h-[85vh] relative"
-        style="
+      <header class="header sm:pt-0 pt-20 flex items-center sm:h-[85vh] relative" style="
           background-image: url('/Pexels Photo by Pixabay (2).png');
           background-repeat: no-repeat;
           background-size: cover;
-        "
-      >
+        ">
         <div class="cnt sm:mt-0 mt-5">
           <div class="headerText">
             <h1 class="w-full">
@@ -42,20 +39,12 @@
       <!-- About   -->
       <div class="mt-20">
         <section>
-          <div
-            class="flex flex-col md:flex-row items-center justify-between p-4 lg:p-[6%] w-full gap-4 md:gap-14"
-          >
-            <div
-              class="flex md:items-start items-center flex-col w-full md:w-1/2 gap-4 md:gap-10"
-            >
-              <h2
-                class="text-black text-[32px] font-normal md:text-start text-center"
-              >
+          <div class="flex flex-col md:flex-row items-center justify-between p-4 lg:p-[6%] w-full gap-4 md:gap-14">
+            <div class="flex md:items-start items-center flex-col w-full md:w-1/2 gap-4 md:gap-10">
+              <h2 class="text-black text-[32px] font-normal md:text-start text-center">
                 {{ $t("H2AboutWe") }}
               </h2>
-              <p
-                class="w-full lg:w-[100%] text-black sm:text-[18px] text-[14px] text-balance font-medium"
-              >
+              <p class="w-full lg:w-[100%] text-black sm:text-[18px] text-[14px] text-balance font-medium">
                 {{ $t("PAboutWe") }}<br /><br />
               </p>
             </div>
@@ -112,18 +101,9 @@
 
       <section class="partners sm:mt-80">
         <div class="cnt">
-          <div
-            class="wrapper flex items-center justify-between relative mx-auto"
-          >
-            <img
-              width="500"
-              class="partnersBg absolute top-[-19%] left-[-16%]"
-              src="/partnerBg.png"
-              alt="Background"
-            />
-            <div
-              class="text text-white max-w-[580px] rounded-3xl sm:p-12 p-6 z-10 mb-32"
-              style="
+          <div class="wrapper flex items-center justify-between relative mx-auto">
+            <img width="500" class="partnersBg absolute top-[-19%] left-[-16%]" src="/partnerBg.png" alt="Background" />
+            <div class="text text-white max-w-[580px] rounded-3xl sm:p-12 p-6 z-10 mb-32" style="
                 background: linear-gradient(
                   49deg,
                   #091e3a -5.91%,
@@ -131,8 +111,7 @@
                   #7092ea 97.71%,
                   #fff 128.95%
                 );
-              "
-            >
+              ">
               <h6 class="text-2xl font-semibold">{{ $t("PartnerH6") }}</h6>
               <h3 class="text-7xl font-semibold my-6 leading-tight">
                 {{ $t("PartnerH3") }}
@@ -144,18 +123,9 @@
 
             <div
               class="partnerImgs grid grid-cols-2 sm:flex items-center justify-center sm:flex-wrap max-w-lg sm:gap-6 gap-10 relative bottom-14 sm:mt-0 mt-11"
-              style="margin-top: 0"
-            >
-              <img
-                src="/icons/pepsi_logo.png"
-                alt="partner"
-                class="w-[200px]"
-              />
-              <img
-                src="/icons/golden_house.png"
-                alt="partner"
-                class="w-[200px]"
-              />
+              style="margin-top: 0">
+              <img src="/icons/pepsi_logo.png" alt="partner" class="w-[200px]" />
+              <img src="/icons/golden_house.png" alt="partner" class="w-[200px]" />
               <img src="/icons/coca_cola.png" alt="partner" class="w-[200px]" />
               <img src="/icons/Pro_Cab.png" alt="partner" class="w-[200px]" />
               <img src="/icons/imzo.png" alt="partner" class="w-[200px]" />
@@ -243,7 +213,7 @@ onMounted(() => {
   }
 
   .cards {
-    @apply flex  justify-around flex-wrap;
+    @apply flex justify-around flex-wrap;
 
     .card {
       @apply bg-white shadow-2xl max-w-[280px] sm:min-h-[500px] p-5 rounded-3xl relative;
@@ -261,12 +231,10 @@ onMounted(() => {
         h4 {
           transform: translate(-50%);
           @apply text-lg font-medium text-white absolute top-0 w-[70%] left-[50%] p-6 rounded-b-[40%];
-          background: linear-gradient(
-            90deg,
-            #091e3a 0%,
-            #2f80ed 50%,
-            #2d9ee0 100%
-          );
+          background: linear-gradient(90deg,
+              #091e3a 0%,
+              #2f80ed 50%,
+              #2d9ee0 100%);
 
           &::after {
             content: "";

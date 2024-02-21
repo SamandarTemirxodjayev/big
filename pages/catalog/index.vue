@@ -1,9 +1,9 @@
 <template>
   <div v-if="!loading">
     <div class="pt-32 px-10">
-      <h2 class="text-black text-[32px] font-normal text-center sm:text-start">
+      <h1 class="text-black text-[32px] font-normal text-center sm:text-start">
         {{ $t("CatalogH2") }}
-      </h2>
+      </h1>
     </div>
     <div class="bg-[#F4F7F8]">
       <section class="mx-auto my-10 p-[2%] lg:p-[6%]">

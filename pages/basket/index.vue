@@ -28,7 +28,7 @@
 
         <div
           class="flex items-center justify-center sm:gap-0 gap-4 sm:flex-col flex-row relative sm:bottom-0 bottom-[19.5px]">
-          <img class="object-cover sm:h-[200px] h-[78.67px] sm:px-4" :src="imgHandle(item.name)" alt="" />
+          <img class="object-cover sm:h-[200px] h-[78.67px] sm:px-4" :src="imgHandle(item.name)" alt="handle" />
           <div class="sm:space-y-4 space-y-[18px] sm:space-x-0 space-x-10 flex items-center sm:flex-col flex-row">
             <div class="flex flex-col">
               <p

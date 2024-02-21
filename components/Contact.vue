@@ -29,9 +29,9 @@
               <Icon name="charm:phone" size="32" color="#FFFFFF80" />
             </div>
             <div class="flex flex-col items-start space-y-4">
-              <h1 class="text-fiveColor not-italic leading-normal text-lg font-semibold">
+              <h2 class="text-fiveColor not-italic leading-normal text-lg font-semibold">
                {{ $t('ContactH') }}
-              </h1>
+              </h2>
               <div class="flex flex-col space-y-4">
                 <a
                   href="tel:+998933909927"
