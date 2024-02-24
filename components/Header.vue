@@ -13,7 +13,7 @@
         </NuxtLink>
 
         <div class="flex justify-center items-center">
-          <ul
+          <nav
             class="md:flex gap-11 mx-20 text-[16px] hidden text-white text-base font-semibold"
           >
             <ul
@@ -75,7 +75,7 @@
                 </NuxtLink>
               </li>
             </ul>
-          </ul>
+          </nav>
         </div>
       </div>
 
@@ -195,9 +195,9 @@
                 </div>
               </div>
               <NuxtLink
-                to="tel:+998933909927"
+                to="tel:+998991543333"
                 class="text-[#fff] text-[16px] font-semibold leading-normal not-italic"
-                >+998 93 390 99 27</NuxtLink
+                >+998 99 154 33 33</NuxtLink
               >
             </div>
           </ul>
@@ -206,9 +206,9 @@
 
       <div class="md:flex hidden items-center gap-5">
         <NuxtLink
-          to="tel:+998933909927"
+          to="tel:+998991543333"
           class="text-white text-base font-semibold"
-          >+998 93 390 99 27</NuxtLink
+          >+998 99 154 33 33</NuxtLink
         >
 
         <div class="relative">

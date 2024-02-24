@@ -94,10 +94,10 @@
                   {{ $t("FooterH5") }}
                 </h5>
                 <NuxtLink
-                  to="tel:+998933909927"
+                  to="tel:+998991543333"
                   class="text-white sm:text-base text-[8px] font-semibold"
                   ><span class="block my-4 text-white/70"
-                    >+998 93 390 99 27</span
+                    >+998 99 154 33 33</span
                   ></NuxtLink
                 >
               </div>

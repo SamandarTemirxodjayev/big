@@ -34,9 +34,9 @@
               </h2>
               <div class="flex flex-col space-y-4">
                 <a
-                  href="tel:+998933909927"
+                  href="tel:+998991543333"
                   class="text-white text-opacity-50 not-italic leading-normal font-semibold"
-                  >+998 93 390 99 27</a
+                  >+998 99 154 33 33</a
                 >
               </div>
             </div>

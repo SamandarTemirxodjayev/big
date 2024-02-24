@@ -112,7 +112,7 @@
                   #fff 128.95%
                 );
               ">
-              <h6 class="text-2xl font-semibold">{{ $t("PartnerH6") }}</h6>
+              <h1 class="text-2xl font-semibold">{{ $t("PartnerH6") }}</h1>
               <h3 class="text-7xl font-semibold my-6 leading-tight">
                 {{ $t("PartnerH3") }}
               </h3>
