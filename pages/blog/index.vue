@@ -19,7 +19,7 @@
         <div
           v-for="blog in blogs"
           :key="blog._id"
-          class="p-2 rounded-3xl shadow-2xl w-full sm:w-[full] md:w-[48%] lg:w-[30%] sm:my-0 my-10"
+          class="p-2 rounded-3xl shadow-2xl w-full sm:w-[full] md:w-[48%] lg:w-[30%] sm:my-8 my-8"
         >
           <div
             v-if="blog._id"
@@ -68,18 +68,29 @@ import axios from "axios";
 let blogs = ref([]);
 let pending = ref(true);
 
+const loading = ref(true)
+
 onMounted(async () => {
+  loading.value = false;
   try {
     let res = await axios.get("https://admin.bigmetall.uz/api/blogs");
     blogs.value = res.data;
     pending.value = false;
+    if (blog.value.length > 0) {
+    definePageMeta({
+      layout: "default",
+      style: {
+        height: "200vh",
+      },
+    });
+  } else {
+    definePageMeta({
+      layout: "blog",
+    });
+  }
   } catch (error) {
     pending.value = false;
   }
-});
-const loading = ref(true);
-onMounted(() => {
-  loading.value = false;
 });
 </script>
 

@@ -204,7 +204,7 @@
                   stroke-width="0.548788" />
               </svg>
               <span
-                class="text-black text-base sm:pr-16 p-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative">{{
+                class="text-black text-base sm:pr-14 mt-2  font-normal transition-all duration-500 group-hover:text-thirdColor relative">{{
                   $t("SpanKvadratprofil") }}</span>
             </div>
           </NuxtLink>
@@ -249,7 +249,7 @@
                   fill="white" />
               </svg>
               <span
-                class="text-black text-base sm:pr-24 font-normal transition-all duration-500 group-hover:text-thirdColor relative">{{
+                class="text-black text-base sm:pr-24 mb-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative">{{
                   $t("SpanPrut") }}</span>
             </div>
           </NuxtLink>

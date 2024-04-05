@@ -404,7 +404,7 @@
                 />
               </svg>
               <span
-                class="text-black text-base sm:pr-16 p-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
+                class="text-black text-base sm:pr-14 mt-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
                 >{{ $t("SpanKvadratprofil") }}</span
               >
             </div>

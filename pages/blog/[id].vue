@@ -1,17 +1,17 @@
 <template>
   <div v-if="!loading">
-    <div class="p-[6%] sm:my-10 my-32">
+    <div class="p-[6%]  sm:my-10 my-32">
       <div v-if="pending" class="text-center my-8">
         <div class="loader"></div>
       </div>
       <div v-else>
-        <div class="my-container flex flex-col items-center justify-center">
+        <div class="my-container flex flex-col items-center justify-center ">
           <img
             :src="`https://admin.bigmetall.uz/${blog.photo}`"
             class="max-w-full max-h-[500px] object-cover"
             alt=""
           />
-          <div class="p-4 flex flex-col gap-10">
+          <div class="p-4 flex flex-col gap-10 ">
             <h1 class="text-xl font-bold">{{ blog.title }}</h1>
             <span>{{ blog.description }}</span>
           </div>
@@ -45,6 +45,8 @@ const loading = ref(true);
 onMounted(() => {
   loading.value = false;
 });
+
+
 </script>
 
 <style scoped>

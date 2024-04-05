@@ -38,7 +38,7 @@
       </div>
       <div class="block sm:hidden sm:items-start items-center flex-col mt-10 md:mt-44">
         <NuxtLink to="/catalog"
-          class="flex text-[#323750] justify-center items-center sm:w-[58%] gap-[10px] rounded-[4px] border border-[#323750]  mb-4"
+          class="flex text-[#323750] justify-center items-center text-center sm:w-[58%] gap-[10px] rounded-[4px] border border-[#323750]  mb-4"
           style="padding: 10px 60px">
           {{ $t("HeroButton") }}
           <Icon name="ep:right" size="24" />

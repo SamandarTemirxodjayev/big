@@ -426,7 +426,7 @@
                     />
                   </svg>
                   <span
-                    class="text-black text-base sm:pr-16 p-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
+                    class="text-black text-base sm:pr-14 mt-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
                     >{{ $t("SpanKvadratprofil") }}</span
                   >
                 </div>
@@ -542,7 +542,7 @@
                     />
                   </svg>
                   <span
-                    class="text-black text-base sm:pr-24 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
+                    class="text-black text-base sm:pr-24 mb-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
                     >{{ $t("SpanPrut") }}</span
                   >
                 </div>
@@ -567,7 +567,7 @@
                     height="76.62"
                   />
                   <span
-                    class="text-black text-base text-center sm:pr-16 bottom-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
+                    class="text-black text-base text-center sm:pr-14 mt-2 font-normal transition-all duration-500 group-hover:text-thirdColor relative"
                     >{{ $t("SpanMetallpalasa") }}</span
                   >
                 </div>
