@@ -1,0 +1,1 @@
+import{_ as o,o as _,c as s,p as c,e as t,a}from"./entry.1e52db8c.js";const n={},d=e=>(c("data-v-6bff6324"),e=e(),t(),e),r={class:"loader-container"},p=d(()=>a("div",{class:"loader"},null,-1)),f=[p];function i(e,l){return _(),s("div",r,f)}const h=o(n,[["render",i],["__scopeId","data-v-6bff6324"]]);export{h as _};
