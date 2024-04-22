@@ -13,7 +13,7 @@
           />
           <div class="p-4 flex flex-col gap-10 ">
             <h1 class="text-xl font-bold">{{ blog.title }}</h1>
-            <span>{{ blog.description }}</span>
+            <div v-html="formattedDescription"></div>
           </div>
         </div>
       </div>
@@ -24,18 +24,24 @@
   </div>
 </template>
 
-
 <script setup>
 import axios from "axios";
 const blog = ref([]);
 const pending = ref(true);
 const route = useRoute();
+const formattedDescription = ref('');
+
+const formatDescription = (description) => {
+  return description.replace(/\n/g, '<br>');
+};
+
 onMounted(async () => {
   try {
     const response = await axios.get(
       `https://admin.bigmetall.uz/api/blogs/${route.params.id}`
     );
     blog.value = response.data;
+    formattedDescription.value = formatDescription(blog.value.description);
     pending.value = false;
   } catch (error) {
     pending.value = false;
@@ -45,9 +51,8 @@ const loading = ref(true);
 onMounted(() => {
   loading.value = false;
 });
-
-
 </script>
+
 
 <style scoped>
 .loader {
