@@ -26,8 +26,7 @@
       />
       <Meta name="referrer" content="origin" />
       <Link rel="canonical" href="https://bigmetall.uz/" />
-
-      <Link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
+      <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <Link
         rel="icon"
         href="<https://bigmetall.uz/public/favicon.ico>"
