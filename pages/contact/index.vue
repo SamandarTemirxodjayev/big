@@ -62,12 +62,12 @@
               </a>
             </h6>
           </div>
-          <NuxtLink to="tel:+998991549999">
+          <NuxtLink to="tel:+998991543333">
             <h6
               class="font-semibold text-lg text-white sm:my-6 my-12 flex gap-3 items-center"
               style="font-family: 'Libre Franklin', sans-serif"
             >
-              <Icon name="carbon:phone" /> +998 99 154 99 99
+              <Icon name="carbon:phone" />+998 99 154 33 33
             </h6>
           </NuxtLink>
           <h6
